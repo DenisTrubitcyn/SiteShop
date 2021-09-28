@@ -38,9 +38,16 @@ button.good_delete {
   box-shadow: 0 0 9 -2 rgba(0, 0, 0, 0.2);
   border-radius: 10px;
 }
+.menu_good {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
 .menu {
   display: flex;
-  height: 50px;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   margin-top: 15px;
